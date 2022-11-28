@@ -9,5 +9,4 @@ module.exports = {
     "!src/**/*.spec.js",
   ],
   testEnvironment: "node",
-  testResultsProcessor: "jest-sonar-reporter",
 };
