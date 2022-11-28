@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "scripts": {
-    "test": "jest",
-    "test:cov": "jest --coverage"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage --config jest-coverage.config.js"
+  },
   "devDependencies": {
     "jest": "^29.3.1",
     "jest-sonar-reporter": "^2.0.0"
+  },
+  "jestSonar": {
+    "reportPath": "coverage"
   }
 }
